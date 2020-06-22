@@ -12,6 +12,7 @@ public class Main {
         List<User> users = new ArrayList<>();
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
+        userService.createUsersTable();
         userService.saveUser("andrey", "ivanov", (byte) 12);
         userService.saveUser("Ivan", "Vasilev", (byte) 15);
         userService.saveUser("Ui", "fds", (byte) 20);
